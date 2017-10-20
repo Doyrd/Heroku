@@ -1,0 +1,71 @@
+body
+{
+  background-image: url("website-images/website-background.png");
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+
+p
+{
+  text-align: center;
+}
+
+#container
+{
+  background-color: white;
+  width: 600px;
+  height: 300px;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  border: 1px black solid;
+  border-radius: 2px;
+  text-align: center;
+}
+
+textarea {
+  resize: none;
+}
+
+#problem
+{
+  grid-column: 2 /3;
+  grid-row: 1;
+  background-color: white;
+}
+
+#level
+{
+  grid-column: 3 /4;
+  grid-row: 1;
+  background-color: white;
+}
+
+#answer
+{
+  grid-column: 2 /3;
+  grid-row: 2;
+  background-color: white;
+}
+
+#solution
+{
+  grid-column: 2 /3;
+  grid-row: 3;
+  background-color: white;
+}
+
+#score
+{
+  grid-column: 3 /4;
+  grid-row: 2;
+  background-color: white;
+}
+
+#theInput
+{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
